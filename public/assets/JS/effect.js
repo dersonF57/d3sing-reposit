@@ -1,0 +1,1 @@
+function openModal(){const a=document.getElementById("modal-container");a.classList.add("mostrar"),a.addEventListener("click",b=>{("fechar"==b.target.id||"modal-container"==b.target.id)&&(a.classList.remove("mostrar"),localStorage.fechaModal="modal-container")})}
